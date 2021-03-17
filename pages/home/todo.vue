@@ -1,0 +1,26 @@
+<template>
+  <div class="">
+    <div class="flex justify-center px-4 py-2 bg-rojo">
+      <h1 class="text-xl text-white lg:text-2xl">Balquimia Landing Page</h1>
+    </div>
+    <div class="flex justify-center mt-10">
+      <h2 class="text-xl">Tareas</h2>
+    </div>
+    <div class="grid ">
+      <TimeLine></TimeLine>
+    </div>
+  </div>
+</template>
+
+<script>
+import TimeLine from '@/components/todo/timeLine'
+export default {
+  components: {
+    TimeLine
+  }
+};
+</script>
+
+<style>
+
+</style>
