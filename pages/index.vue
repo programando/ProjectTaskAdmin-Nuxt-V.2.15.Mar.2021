@@ -9,7 +9,7 @@
           <h2 class="text-verde">TodoList</h2>
         </div>
         <div class="flex items-center justify-center mt-4">
-          <label class="px-4 py-2 bg-white rounded-md w-28 text-azulOscuro"
+          <label class="w-32 px-4 py-2 bg-white rounded-md text-azulOscuro"
             >Proyecto</label
           >
           <select
@@ -21,7 +21,7 @@
           </select>
         </div>
         <div class="flex items-center justify-center mt-4">
-          <label class="px-4 py-2 bg-white rounded-md w-28 text-azulOscuro"
+          <label class="w-32 px-4 py-2 bg-white rounded-md text-azulOscuro"
             >Usuario</label
           >
           <select
@@ -33,7 +33,7 @@
           </select>
         </div>
         <div class="flex items-center justify-center mt-4">
-          <label class="px-4 py-2 bg-white rounded-md w-28 text-azulOscuro"
+          <label class="w-32 px-4 py-2 bg-white rounded-md text-azulOscuro"
             >Contraseña</label
           >
           <input
