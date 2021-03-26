@@ -7,16 +7,16 @@
       <h2 class="text-xl">Tareas</h2>
     </div>
     <div class="grid ">
-      <TimeLine></TimeLine>
+      <Cards></Cards>
     </div>
   </div>
 </template>
 
 <script>
-import TimeLine from '@/components/todo/timeLine'
+import Cards from '@/components/todo/cards'
 export default {
   components: {
-    TimeLine
+    Cards
   }
 };
 </script>
