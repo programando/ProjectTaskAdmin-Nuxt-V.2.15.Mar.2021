@@ -10,8 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        azulOscuro: '#161d6f',
-        azul: '1b6ca8',
+        azul: '#161d6f',
         rojo: '#f14668',
         verde: '#00917c',
         

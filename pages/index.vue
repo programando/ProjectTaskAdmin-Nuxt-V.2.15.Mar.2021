@@ -9,11 +9,11 @@
           <h2 class="text-verde">TodoList</h2>
         </div>
         <div class="flex items-center justify-center mt-4">
-          <label class="w-32 px-4 py-2 bg-white rounded-md text-azulOscuro"
+          <label class="w-32 px-4 py-2 bg-white rounded-md text-azul"
             >Proyecto</label
           >
           <select
-            class="w-56 px-4 py-2 bg-white border-2 rounded-md border-azulOscuro "
+            class="w-56 px-4 py-2 bg-white border-2 rounded-md border-azul "
             name="select"
           >
             <option value="balquimia">Balquimia</option>
@@ -21,11 +21,11 @@
           </select>
         </div>
         <div class="flex items-center justify-center mt-4">
-          <label class="w-32 px-4 py-2 bg-white rounded-md text-azulOscuro"
+          <label class="w-32 px-4 py-2 bg-white rounded-md text-azul"
             >Usuario</label
           >
           <select
-            class="w-56 px-4 py-2 bg-white border-2 rounded-md border-azulOscuro"
+            class="w-56 px-4 py-2 bg-white border-2 rounded-md border-azul"
             name="select"
           >
             <option value="balquimia">Jhon</option>
@@ -33,19 +33,19 @@
           </select>
         </div>
         <div class="flex items-center justify-center mt-4">
-          <label class="w-32 px-4 py-2 bg-white rounded-md text-azulOscuro"
+          <label class="w-32 px-4 py-2 bg-white rounded-md text-azul"
             >Contraseña</label
           >
           <input
-            class="w-56 px-4 py-2 border-2 rounded-md border-azulOscuro"
+            class="w-56 px-4 py-2 border-2 rounded-md border-azul"
             type="password"
             name=""
             id=""
           />
         </div>
-        <div class="flex justify-center mt-4 mr-3">
+        <div class="flex justify-center mt-4 ">
           <nuxt-link to="/home/todo"
-            class="px-4 py-2 border-2 rounded-md border-azulOscuro text-azulOscuro hover:text-white hover:bg-verde"
+            class="px-4 py-2 border-2 rounded-md border-azul text-azul hover:text-white hover:bg-verde"
           >
             Ingresar
           </nuxt-link>

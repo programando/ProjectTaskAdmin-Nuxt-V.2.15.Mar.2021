@@ -1,72 +1,55 @@
 <template>
   <div>
-    <section class="w-2/5 sm:w-3/5 md:w-4/5 lg:w-full seccion">
+    <section class=" seccion">
       <div class="swiper-container">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide">
-            <div class="testimonialBox">
-              <img class="h-20 cuote" src="/images/quote.svg" alt="quote" />
-              <div>Tarea 1</div>
+          <div class="swiper-slide bg-rojo">
+            <div class="text-white testimonialBox">
+              <div class="text-lg">Tarea 1</div>
               <div class="content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Temporibus obcaecati, eligendi quo exercitationem quae
-                necessitatibus sapiente ipsa nihil ullam earum omnis voluptas
-                alias ex nam explicabo voluptatem odit eos iusto?
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="testimonialBox">
-              <img class="h-20 cuote" src="/images/quote.svg" alt="quote" />
-              <h2>Tarea 2</h2>
+          <div class="swiper-slide bg-rojo">
+            <div class="text-white testimonialBox">
+              <h2 class="text-lg">Tarea 2</h2>
               <div class="content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Temporibus obcaecati, eligendi quo exercitationem quae
-                necessitatibus sapiente ipsa nihil ullam earum omnis voluptas
-                alias ex nam explicabo voluptatem odit eos iusto?
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="testimonialBox">
-              <img class="h-20 cuote" src="/images/quote.svg" alt="quote" />
-              <h2>Tarea 3</h2>
+          <div class="swiper-slide bg-rojo">
+            <div class="text-white testimonialBox">
+              <h2 class="text-lg">Tarea 3</h2>
               <div class="content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Temporibus obcaecati, eligendi quo exercitationem quae
-                necessitatibus sapiente ipsa nihil ullam earum omnis voluptas
-                alias ex nam explicabo voluptatem odit eos iusto?
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="testimonialBox">
-              <img class="h-20 cuote" src="/images/quote.svg" alt="quote" />
-              <h2>Tarea 4</h2>
+          <div class="swiper-slide bg-rojo">
+            <div class="text-white testimonialBox">
+              <h2 class="text-lg">Tarea 4</h2>
               <div class="content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Temporibus obcaecati, eligendi quo exercitationem quae
-                necessitatibus sapiente ipsa nihil ullam earum omnis voluptas
-                alias ex nam explicabo voluptatem odit eos iusto?
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="testimonialBox">
-              <img class="h-20 cuote" src="/images/quote.svg" alt="quote" />
-              <h2>Tarea 5</h2>
+          <div class="swiper-slide bg-rojo">
+            <div class="text-white testimonialBox">
+              <h2 class="text-lg">Tarea 5</h2>
               <div class="content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Temporibus obcaecati, eligendi quo exercitationem quae
-                necessitatibus sapiente ipsa nihil ullam earum omnis voluptas
-                alias ex nam explicabo voluptatem odit eos iusto?
               </div>
             </div>
           </div>
-
-          ...
         </div>
       </div>
     </section>
@@ -97,7 +80,8 @@ export default {
         depth: 100,
         modifier: 2,
         slideShadows: true
-      }
+      },
+      loop: true
     });
   }
 };
@@ -106,27 +90,25 @@ export default {
 <style>
 .seccion {
   position: relative;
-  
-  min-height: 100vh;
+
+  max-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #2196f3;
-  overflow: hidden;
 }
 
 .swiper-container {
-  width: 100%;
+  width: 80%;
   padding-top: 50px;
   padding-bottom: 50px;
-  
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  background: #fff;
+  width: 200px;
+  
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
   filter: blur(4px);
   border-radius: 10px;
@@ -140,10 +122,24 @@ export default {
   position: relative;
   width: 100%;
   padding: 40px;
+  
+  
 }
 
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right {
   background-image: none;
+}
+
+@media screen and (min-width: 700px) {
+  .swiper-slide {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .swiper-slide {
+    width: 350px;
+  }
 }
 </style>
