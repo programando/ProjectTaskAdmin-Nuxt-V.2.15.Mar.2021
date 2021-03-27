@@ -1,6 +1,7 @@
 <template>
   <div>
-    <section class=" seccion">
+    <section class="py-20 seccion">
+      <BotonDesplegable></BotonDesplegable>
       <div class="swiper-container">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
@@ -57,13 +58,14 @@
 </template>
 
 <script>
+import BotonDesplegable from '@/components/todo/botonDesplegable'
 import Swiper from "swiper/bundle";
-
 import "swiper/swiper-bundle.css";
 export default {
+
   name: "Cards",
-  data() {
-    return {};
+  components: {
+    BotonDesplegable
   },
 
   mounted() {
@@ -87,7 +89,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .seccion {
   position: relative;
 

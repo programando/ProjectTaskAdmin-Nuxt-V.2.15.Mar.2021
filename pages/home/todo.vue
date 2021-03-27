@@ -3,7 +3,8 @@
     <div class="flex justify-center px-4 py-2 bg-rojo">
       <h1 class="text-xl text-white lg:text-2xl">Balquimia Landing Page</h1>
     </div>
-    <div class="grid ">
+    <div class="flex">
+      
       <Cards></Cards>
     </div>
   </div>
@@ -11,9 +12,11 @@
 
 <script>
 import Cards from '@/components/todo/cards'
+
 export default {
   components: {
-    Cards
+    Cards,
+    
   }
 };
 </script>
