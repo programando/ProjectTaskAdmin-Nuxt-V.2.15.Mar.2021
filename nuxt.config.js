@@ -1,7 +1,10 @@
+//require('dotenv').config(); // process.env.variable-definida
+import dotenv from "dotenv"; dotenv.config();
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'ProjectTaskAdmin-Nuxt-V.2.15.Mar.2021',
+    title: 'Tasks-Admin',
     htmlAttrs: {
       lang: 'en'
     },
@@ -14,7 +17,13 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
+  env: {
+      URL_BASE: process.env.URL_BASE,
+      URL_API: process.env.URL_API,
+      URL_WEB: process.env.URL_WEB,
+      URL_RESET_PASS: process.env.URL_RESET_PASS,
+  },
+ 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],

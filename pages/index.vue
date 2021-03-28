@@ -49,6 +49,7 @@
           >
             Ingresar
           </nuxt-link>
+          <nuxt-link to="login"> Login</nuxt-link>
         </div>
       </div>
     </div>
@@ -56,7 +57,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: ()=> ( {
+      
+  }),
+};
 </script>
 
 <style></style>
