@@ -10,12 +10,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primarycolor: "#F9A826",
         azul: '#161d6f',
         rojo: '#f14668',
         verde: '#00917c',
         
       }
     },
+    fontFamily: {
+      display: ["Nunito", "sans-serif"],
+    },
+
   },
   variants: {
     extend: {},

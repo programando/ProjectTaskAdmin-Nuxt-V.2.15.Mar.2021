@@ -141,7 +141,7 @@ export default {
 
 @media screen and (min-width: 1000px) {
   .swiper-slide {
-    width: 350px;
+    width: 400px;
   }
 }
 </style>

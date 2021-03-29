@@ -4,6 +4,7 @@
       <button class="floating-btn btn">
         A
       </button>
+      
 
       <div class="floating-container">
         <button class="btn">
@@ -44,8 +45,8 @@ export default {
 }
 
 .btn {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 50px;
   font-size: 22px;
   outline: none;
   border: none;
@@ -71,7 +72,7 @@ export default {
   bottom: 0;
   height: 100%;
   width: 100%;
-  padding-bottom: 110%;
+  padding-bottom: 70%;
   overflow: hidden;
   transition: height 0.4s;
 }
@@ -88,7 +89,7 @@ export default {
 }
 
 .floating-container:hover button {
-  width: 50px;
+  width: 100px;
   height: 50px;
   opacity: 1;
   animation: marginAnimated 0.4s forwards;
@@ -101,7 +102,7 @@ export default {
   }
 
   to {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
 }
 

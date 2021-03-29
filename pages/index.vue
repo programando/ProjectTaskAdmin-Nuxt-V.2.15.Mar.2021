@@ -1,66 +1,70 @@
 <template>
-  <div
-    class="py-48 bg-center bg-no-repeat bg-cover font-latos"
-    style="background-image: url('/images/inicio-seccion.jpg')"
-  >
-    <div class="mx-4 mt-14 sm:mx-20 md:mx-40 lg:mx-56 xl:mx-96">
-      <div class="items-center px-10 py-10 bg-white border rounded-md ">
-        <div class="flex justify-center ml-8 text-4xl font-bold text-white">
-          <h2 class="text-verde">TodoList</h2>
-        </div>
-        <div class="flex items-center justify-center mt-4">
-          <label class="w-32 px-4 py-2 bg-white rounded-md text-azul"
-            >Proyecto</label
-          >
-          <select
-            class="w-56 px-4 py-2 bg-white border-2 rounded-md border-azul "
-            name="select"
-          >
-            <option value="balquimia">Balquimia</option>
-            <option value="balquimia">Crickpack</option>
-          </select>
-        </div>
-        <div class="flex items-center justify-center mt-4">
-          <label class="w-32 px-4 py-2 bg-white rounded-md text-azul"
-            >Usuario</label
-          >
-          <select
-            class="w-56 px-4 py-2 bg-white border-2 rounded-md border-azul"
-            name="select"
-          >
-            <option value="balquimia">Jhon</option>
-            <option value="balquimia">Luis</option>
-          </select>
-        </div>
-        <div class="flex items-center justify-center mt-4">
-          <label class="w-32 px-4 py-2 bg-white rounded-md text-azul"
-            >Contraseña</label
-          >
+  <div>
+    <img
+      src="/images/wave.png"
+      class="fixed inset-0 hidden h-full lg:block"
+      style="z-index: -1;"
+    />
+    <div
+      class="flex flex-col items-center justify-center w-screen h-screen lg:grid lg:grid-cols-2"
+    >
+      <img
+        src="/images/tasks.svg"
+        class="hidden w-1/2 mx-auto transition-all duration-500 transform lg:block hover:scale-150"
+      />
+      <form class="flex flex-col items-center justify-center w-1/2">
+        <img src="/images/avatar.svg" class="w-32" />
+        <h2
+          class="my-8 text-3xl font-bold text-center text-gray-700 font-display"
+        >
+          Bienvenido
+        </h2>
+        <div class="relative">
+          <div class="absolute ml-1 text-xl">
+            <font-awesome-icon :icon="['fas', 'user']" />
+          </div>
           <input
-            class="w-56 px-4 py-2 border-2 rounded-md border-azul"
-            type="password"
-            name=""
-            id=""
+            type="text"
+            placeholder="Usuario"
+            class="pl-8 text-lg capitalize transition-all duration-500 border-b-2 font-display focus:outline-none focus:border-primarycolor"
           />
         </div>
-        <div class="flex justify-center mt-4 ">
-          <nuxt-link to="/home/todo"
-            class="px-4 py-2 border-2 rounded-md border-azul text-azul hover:text-white hover:bg-verde"
-          >
-            Ingresar
-          </nuxt-link>
-          <nuxt-link to="login"> Login</nuxt-link>
+        <div class="relative mt-8">
+          <div class="absolute ml-1 text-xl">
+            <font-awesome-icon :icon="['fas', 'lock']" />
+          </div>
+
+          <input
+            type="password"
+            placeholder="Contraseña"
+            class="pl-8 text-lg capitalize transition-all duration-500 border-b-2 font-display focus:outline-none focus:border-primarycolor"
+          />
         </div>
-      </div>
+        <div class="relative mt-8">
+          
+
+          <select class="w-56 px-2 text-lg border-b-2 rounded-md font-display border-primarycolor focus:outline-none focus:border-primarycolo" name="cars" id="cars" form="carform">
+            <option value="balquimia">Balquimia</option>
+            <option value="cripack">Cripack</option>
+            
+          </select>
+        </div>
+        <nuxt-link class="self-end mt-4 font-bold text-gray-600" to="#">
+          Olvidastes la contraseña?
+        </nuxt-link>
+
+        <nuxt-link class="px-20 py-3 mt-4 text-lg font-bold text-white uppercase transition-all duration-500 transform rounded-full bg-primarycolor hover:translate-y-1" to="home/todo">
+          Entrar
+        </nuxt-link>
+      </form>
+      
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  data: ()=> ( {
-      
-  }),
+  data: () => ({})
 };
 </script>
 
