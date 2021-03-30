@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'Tasks-Admin',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },
@@ -18,9 +18,9 @@ export default {
     ]
   },
   env: {
-      URL_BASE: process.env.URL_BASE,
-      URL_API: process.env.URL_API,
-      URL_WEB: process.env.URL_WEB,
+      URL_BASE      : process.env.URL_BASE,
+      URL_API       : process.env.URL_API,
+      URL_WEB       : process.env.URL_WEB,
       URL_RESET_PASS: process.env.URL_RESET_PASS,
   },
  
