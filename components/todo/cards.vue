@@ -1,111 +1,112 @@
 <template>
   <div>
     <section class="py-20 seccion">
-      <BotonDesplegable></BotonDesplegable>
+      <div class="align-bottom mt-96">
+        <BotonDesplegable></BotonDesplegable>
+      </div>
+      
       <div class="swiper-container">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="bg-white swiper-slide">
-            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+            <div class="px-4 py-4 mt-4 text-black testimonialBox">
               <div class="flex text-lg justify-evenly">
                 <h2>Tarea 1</h2>
-                <label class="px-4 py-1 text-white rounded-md bg-rojo">Alta</label>
+                <h2 class="font-semibold text-rojo ">Alta</h2>
               </div>
               <div class="px-2 mt-4 text-black content">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, odit temporibus? Consectetur deleniti non repellat voluptas magnam! Soluta, laudantium molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam atque, iure minima totam, repellat, delectus sed corporis rerum qui deserunt at architecto odit placeat est alias necessitatibus itaque suscipit soluta.
               </div>
-              <div class="flex justify-center mt-8 text-sm text-black">
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
-                
+              <div class="flex justify-center mt-8 text-sm text-black lg:text-base">
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Requerida</h2>
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Finalizada</h2>
               </div>
               <div class="flex justify-center mt-4">
-                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-rojo">Tarea Revisada</button>
               </div>
             </div>
           </div>
           <div class="bg-white swiper-slide">
-            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+            <div class="px-4 py-4 mt-4 text-black testimonialBox">
               <div class="flex text-lg justify-evenly">
                 <h2>Tarea 2</h2>
-                <label class="px-4 py-1 text-white rounded-md bg-azul">Media</label>
+                <h2 class="font-semibold text-azul ">Media</h2>
               </div>
               <div class="px-2 mt-4 text-black content">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, odit temporibus? Consectetur deleniti non repellat voluptas magnam! Soluta, laudantium molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam atque, iure minima totam, repellat, delectus sed corporis rerum qui deserunt at architecto odit placeat est alias necessitatibus itaque suscipit soluta.
               </div>
-              <div class="flex justify-center mt-8 text-sm text-black">
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
-                
+              <div class="flex justify-center mt-8 text-sm text-black lg:text-base">
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Requerida</h2>
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Finalizada</h2>
               </div>
               <div class="flex justify-center mt-4">
-                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-rojo">Tarea Revisada</button>
               </div>
             </div>
           </div>
           <div class="bg-white swiper-slide">
-            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+            <div class="px-4 py-4 mt-4 text-black testimonialBox">
               <div class="flex text-lg justify-evenly">
                 <h2>Tarea 3</h2>
-                <label class="px-4 py-1 text-white rounded-md bg-verde">Baja</label>
+                <h2 class="font-semibold text-verde ">baja</h2>
               </div>
               <div class="px-2 mt-4 text-black content">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, odit temporibus? Consectetur deleniti non repellat voluptas magnam! Soluta, laudantium molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam atque, iure minima totam, repellat, delectus sed corporis rerum qui deserunt at architecto odit placeat est alias necessitatibus itaque suscipit soluta.
               </div>
-              <div class="flex justify-center mt-8 text-sm text-black">
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
-                
+              <div class="flex justify-center mt-8 text-sm text-black lg:text-base">
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Requerida</h2>
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Finalizada</h2>
               </div>
               <div class="flex justify-center mt-4">
-                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-rojo">Tarea Revisada</button>
               </div>
             </div>
           </div>
           <div class="bg-white swiper-slide">
-            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+            <div class="px-4 py-4 mt-4 text-black testimonialBox">
               <div class="flex text-lg justify-evenly">
                 <h2>Tarea 4</h2>
-                <label class="px-4 py-1 text-white rounded-md bg-azul">Media</label>
+                <h2 class="font-semibold text-rojo ">Alta</h2>
               </div>
               <div class="px-2 mt-4 text-black content">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, odit temporibus? Consectetur deleniti non repellat voluptas magnam! Soluta, laudantium molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam atque, iure minima totam, repellat, delectus sed corporis rerum qui deserunt at architecto odit placeat est alias necessitatibus itaque suscipit soluta.
               </div>
-              <div class="flex justify-center mt-8 text-sm text-black">
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
-                
+              <div class="flex justify-center mt-8 text-sm text-black lg:text-base">
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Requerida</h2>
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Finalizada</h2>
               </div>
               <div class="flex justify-center mt-4">
-                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-rojo">Tarea Revisada</button>
               </div>
             </div>
           </div>
           <div class="bg-white swiper-slide">
-            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+            <div class="px-4 py-4 mt-4 text-black testimonialBox">
               <div class="flex text-lg justify-evenly">
                 <h2>Tarea 5</h2>
-                <label class="px-4 py-1 text-white rounded-md bg-verde">Baja</label>
+                <h2 class="font-semibold text-rojo ">Alta</h2>
               </div>
               <div class="px-2 mt-4 text-black content">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, odit temporibus? Consectetur deleniti non repellat voluptas magnam! Soluta, laudantium molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam atque, iure minima totam, repellat, delectus sed corporis rerum qui deserunt at architecto odit placeat est alias necessitatibus itaque suscipit soluta.
               </div>
-              <div class="flex justify-center mt-8 text-sm text-black">
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
-                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
-                
+              <div class="flex justify-center mt-8 text-sm text-black lg:text-base">
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Requerida</h2>
+                <h2 class="mx-2 font-semibold text-azul lg:mx-4 ">Fecha Finalizada</h2>
               </div>
               <div class="flex justify-center mt-4">
-                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-verde">Iniciar Tarea</button>
+                <button class="px-4 py-1 mx-2 text-white rounded-md lg:mx-4 bg-rojo">Tarea Revisada</button>
               </div>
             </div>
           </div>
+          
+          
+        
         </div>
       </div>
     </section>
@@ -150,7 +151,7 @@ export default {
   height: 100vh;
   max-width: 100vw;
   display: flex;
-  justify-content: center;
+  
   align-items: center;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,152,242,1) 0%, rgba(0,212,255,1) 100%);
@@ -198,8 +199,8 @@ export default {
 
 @media screen and (min-width: 1000px) {
   .swiper-slide {
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
   }
 }
 </style>

@@ -16,10 +16,7 @@
           <font-awesome-icon class="text-rojo" :icon="['fas', 'adjust']" />
         </button>
         <button class="btn">
-          <font-awesome-icon
-            class="text-primarycolor"
-            :icon="['fas', 'server']"
-          />
+          <font-awesome-icon class="text-white" :icon="['fas', 'server']" />
         </button>
       </div>
     </div>
@@ -38,7 +35,6 @@
           </div>
         </div>
         <div>
-         
           <div class="flex justify-center mx-10 mt-10 lg:mx-20">
             <label class="text-xl ">Titulo</label>
             <input
@@ -175,7 +171,7 @@ export default {
 }
 
 .floating-container button:nth-child(2) {
-  background: #f44336;
+  background: #4caf50;
 }
 
 .floating-container button:nth-child(3) {
@@ -186,7 +182,7 @@ export default {
   background: #039be5;
 }
 .floating-container button:nth-child(4) {
-  background: #4caf50;
+  background: #d44000;
 }
 
 .floating-container button:hover {
