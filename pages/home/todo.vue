@@ -1,11 +1,9 @@
 <template>
-  <div class="">
-    <div class="flex justify-center px-4 py-2 bg-rojo">
-      <h1 class="text-xl text-white lg:text-2xl">Balquimia Landing Page</h1>
+  <div class="relative">
+    <div class="absolute z-10 flex justify-center w-full px-4 py-2 bg-primarycolor">
+      <h1 class="text-xl font-semibold text-black uppercase lg:text-2xl">Todo List</h1>
     </div>
-    <div class="flex justify-center px-2 border">
-      <nuxt-link class="px-2 py-1 text-white bg-purple-400 rounded-md" to="crear-tareas">Agregar Tarea</nuxt-link>
-    </div>
+   
     <div class="flex">
       <Cards></Cards>
     </div>

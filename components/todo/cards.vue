@@ -6,48 +6,103 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide bg-rojo">
-            <div class="text-white testimonialBox">
-              <div class="text-lg">Tarea 1</div>
-              <div class="content">
+          <div class="bg-white swiper-slide">
+            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+              <div class="flex text-lg justify-evenly">
+                <h2>Tarea 1</h2>
+                <label class="px-4 py-1 text-white rounded-md bg-rojo">Alta</label>
+              </div>
+              <div class="px-2 mt-4 text-black content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae
+                Temporibus obcaecati, eligendi quo exercitationem quae 
+              </div>
+              <div class="flex justify-center mt-8 text-sm text-black">
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
+                
+              </div>
+              <div class="flex justify-center mt-4">
+                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
               </div>
             </div>
           </div>
-          <div class="swiper-slide bg-rojo">
-            <div class="text-white testimonialBox">
-              <h2 class="text-lg">Tarea 2</h2>
-              <div class="content">
+          <div class="bg-white swiper-slide">
+            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+              <div class="flex text-lg justify-evenly">
+                <h2>Tarea 2</h2>
+                <label class="px-4 py-1 text-white rounded-md bg-azul">Media</label>
+              </div>
+              <div class="px-2 mt-4 text-black content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae
+                Temporibus obcaecati, eligendi quo exercitationem quae 
+              </div>
+              <div class="flex justify-center mt-8 text-sm text-black">
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
+                
+              </div>
+              <div class="flex justify-center mt-4">
+                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
               </div>
             </div>
           </div>
-          <div class="swiper-slide bg-rojo">
-            <div class="text-white testimonialBox">
-              <h2 class="text-lg">Tarea 3</h2>
-              <div class="content">
+          <div class="bg-white swiper-slide">
+            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+              <div class="flex text-lg justify-evenly">
+                <h2>Tarea 3</h2>
+                <label class="px-4 py-1 text-white rounded-md bg-verde">Baja</label>
+              </div>
+              <div class="px-2 mt-4 text-black content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae
+                Temporibus obcaecati, eligendi quo exercitationem quae 
+              </div>
+              <div class="flex justify-center mt-8 text-sm text-black">
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
+                
+              </div>
+              <div class="flex justify-center mt-4">
+                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
               </div>
             </div>
           </div>
-          <div class="swiper-slide bg-rojo">
-            <div class="text-white testimonialBox">
-              <h2 class="text-lg">Tarea 4</h2>
-              <div class="content">
+          <div class="bg-white swiper-slide">
+            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+              <div class="flex text-lg justify-evenly">
+                <h2>Tarea 4</h2>
+                <label class="px-4 py-1 text-white rounded-md bg-azul">Media</label>
+              </div>
+              <div class="px-2 mt-4 text-black content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae
+                Temporibus obcaecati, eligendi quo exercitationem quae 
+              </div>
+              <div class="flex justify-center mt-8 text-sm text-black">
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
+                
+              </div>
+              <div class="flex justify-center mt-4">
+                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
               </div>
             </div>
           </div>
-          <div class="swiper-slide bg-rojo">
-            <div class="text-white testimonialBox">
-              <h2 class="text-lg">Tarea 5</h2>
-              <div class="content">
+          <div class="bg-white swiper-slide">
+            <div class="px-4 py-4 mt-4 text-primarycolor testimonialBox">
+              <div class="flex text-lg justify-evenly">
+                <h2>Tarea 5</h2>
+                <label class="px-4 py-1 text-white rounded-md bg-verde">Baja</label>
+              </div>
+              <div class="px-2 mt-4 text-black content">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus obcaecati, eligendi quo exercitationem quae
+                Temporibus obcaecati, eligendi quo exercitationem quae 
+              </div>
+              <div class="flex justify-center mt-8 text-sm text-black">
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Requerida </label>
+                <label class="px-4 py-1 mx-2 rounded-md bg-primarycolor">Fecha Finalizada </label>
+                
+              </div>
+              <div class="flex justify-center mt-4">
+                <button class="px-4 py-1 text-white rounded-md bg-verde">Iniciar Tarea</button>
               </div>
             </div>
           </div>
@@ -92,12 +147,13 @@ export default {
 <style scoped>
 .seccion {
   position: relative;
-
+  height: 100vh;
   max-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #2196f3;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,152,242,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 .swiper-container {
@@ -123,7 +179,7 @@ export default {
 .testimonialBox {
   position: relative;
   width: 100%;
-  padding: 40px;
+  
   
   
 }
@@ -136,12 +192,14 @@ export default {
 @media screen and (min-width: 700px) {
   .swiper-slide {
     width: 300px;
+    
   }
 }
 
 @media screen and (min-width: 1000px) {
   .swiper-slide {
     width: 400px;
+    height: 300px;
   }
 }
 </style>
