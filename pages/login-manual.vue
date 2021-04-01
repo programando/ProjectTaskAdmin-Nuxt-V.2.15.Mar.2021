@@ -12,13 +12,11 @@
           <input  v-model="form.password" type="password" placeholder="password"><br>
           <button > Login</button>
       </form>
-
-     
   </div>
 </template>
 
 <script>
- 
+import Users from "@/models/User";
 export default {
   data: () => ( {
       user:{},
@@ -27,20 +25,33 @@ export default {
           password:'password',
       }
   }),
-
-
-   methods: {
-    async login() {
-      await this.$auth.loginWith('laravelSanctum', {
-        data: {
-          email: this.form.email,
-          password: this.form.password,
-        },
-      })
-
-     this.$router.push('home/todo')
-    },
+  created(){ 
+        this.usuarioAutenticado(); 
   },
+
+  methods: {
+        logout() {
+            Users.logout()
+            .then ( () => {
+                this.user = {};
+            })
+        },
+        usuarioAutenticado(){
+                Users.auth() 
+                .then ( response => {
+                   this.user = response.data; 
+                })
+        },
+        login() {
+                Users.getCokie()
+                .then ( ()=> {
+                     Users.login ( this.form )
+                      .then( response =>{
+                        this.user = response.data;
+                    }) 
+                })
+             }  
+    }
 
 
 }

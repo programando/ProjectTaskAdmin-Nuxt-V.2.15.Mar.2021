@@ -55,6 +55,8 @@
         </nuxt-link>
       </form>
       
+
+      <nuxt-link to="/login"> Login temporal </nuxt-link>
     </div>
   </div>
 </template>

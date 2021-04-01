@@ -7,6 +7,9 @@
     <div class="flex">
       <Cards></Cards>
     </div>
+
+     <button @click="logout"> Salir </button>
+     
   </div>
 </template>
 
@@ -14,9 +17,17 @@
 import Cards from "@/components/todo/cards";
 
 export default {
+  middleware: ['auth'],
   components: {
     Cards
-  }
+  },
+     methods: {
+    async logout() {
+      await this.$auth.logout();
+
+     this.$router.push('/')
+    },
+  },
 };
 </script>
 
